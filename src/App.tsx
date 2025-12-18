@@ -8,6 +8,9 @@ import './App.css';
 import About from './components/sections/About/About';
 import Skills from './components/sections/Skills/Skills';
 import Projects from './components/sections/Projects/Projects';
+import Experience from './components/sections/Experience/Experience';
+import Contact from './components/sections/Contact/Contact';
+import Footer from './components/layout/Footer/Footer';
 
 function App() {
   return (
@@ -20,7 +23,9 @@ function App() {
         <About />
         <Skills/>
         <Projects />
-        {/* Les autres sections viendront ici */}
+        <Experience />
+        <Contact />
+        <Footer />
       </main>
     </div>
   );
